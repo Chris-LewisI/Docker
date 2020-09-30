@@ -18,4 +18,5 @@ EXPOSE 80 parameter in Dockerfile allows the image to handle it with Apache
 project runs on "localhost"  
 
 ###### Tips:  
-Try to have one process per container because the duration of the container's run is dependant on the completion of the process.  
+- Try to have one process per container because the duration of the container's run is dependant on the completion of the process.  
+- Upload docker images to Docker Hub
