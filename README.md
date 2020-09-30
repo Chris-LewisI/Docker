@@ -13,4 +13,4 @@ Practice and mini projects using Docker.
 EXPOSE 80 parameter in Dockerfile allows the image to handle it with Apache  
 project runs on "localhost"  
 
-Tip: try to have one process per container because the duration of the container's run is dependant on the completion of the process.  
+###Tip: try to have one process per container because the duration of the container's run is dependant on the completion of the process.  
