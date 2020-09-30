@@ -1,12 +1,10 @@
 # Docker
 Practice and mini projects using Docker.
 
-COMMANDS:
-
 # To build docker container:
-  $ docker build -t hello-world .
--t --> names the container
-. --> points to current directory
+  $ docker build -t hello-world .  
+-t --> names the container  
+. --> points to current directory  
 
 # To run docker containers:
   $ docker run -p -v /Users/../Docker/Hello-World/src/:/var/www/html/ 80:80 hello-world
